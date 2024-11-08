@@ -1,0 +1,86 @@
+<div class="services-container">
+    <div class="header">
+        <h2> Empowering Your <span class="blue-color">Business</span> With Our <span class="blue-color">Services</span> </h2>
+    </div>
+
+    <div class="content">
+        <div class="tiles">
+            <div class="tiles-row-1">
+                <div class="tile" (click)="changeTile('audit')">
+                    Audit & Assurance
+                </div>
+
+                <div class="tile" (click)="changeTile('management')">
+                    Managment Consultancy
+                </div>
+
+                <div class="tile" (click)="changeTile('taxes')">
+                    Taxes & Compliance
+                </div>
+            </div>
+            <br>
+            <div class="tiles-row-2">
+                <div class="tile">
+                    Startups & Incorporation
+                </div>
+
+                <div class="tile">
+                    Process outsourcing
+                </div>
+
+                <div class="tile">
+                    Accounting Solutions
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="card" *ngIf="CardType == 'audit'">
+            <div>
+                We are committed to deliver independent and unbiased opinions on the completeness and accuracy of the 
+                Financial Statements. We provide the assurance services to our clients they need, to make informed 
+                decisions, safeguard assets, and maintain the trust of stakeholders. 
+                In addition to our audit and assurance services, We specialize in management assurance and risk review, 
+                internal control design and review, and IFC process and walkthroughs. Our assurance services includes 
+                but are not limited to
+
+​                <ul>
+                    <li> Statutory Audit </li>
+                    <li> Internal Audit </li>
+                    <li> Internal Financial Control (IFC) Audit </li>
+                    <li> Tax Audit </li>
+                    <li> Process Audit </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" *ngIf="CardType == 'management'">
+            <div>
+                We prioritize understanding the unique needs of each business we serve. Our approach involves close 
+                collaboration with clients to develop customized solutions that address their specific 
+                challenges and goals. We analyze financial data, evaluating organizational processes, 
+                and identifying opportunities for improvement. Whether it's restructuring financial systems, 
+                implementing cost-saving measures, or navigating regulatory compliance, 
+                we leverage our expertise to drive sustainable growth and success for our clients.
+
+                With a team of experts covering all aspects of business, we offer comprehensive support end to end, 
+                ensuring our clients receive the best possible outcomes at the best cost.
+            </div>
+        </div>
+
+        <div class="card" *ngIf="CardType == 'taxes'">
+            <div>
+                We provide an extensive array of tax services either direct, indirect or personal taxation, 
+                offering comprehensive tax management strategies that encompass proactive 
+                identification and implementation of tax structures. We offer tax services, including planning, 
+                compliance, forecasting and advisory. Our in-depth knowledge of the latest tax laws ensures you 
+                maximize benefits and minimize liabilities, allowing you to focus on what you do best. 
+                Having experience in Direct and Indirect taxation, we do file your returns and help in 
+                complying with all tax laws. 
+            </div>
+        </div>
+
+        <div class="card" *ngIf="CardType == 'startups'">
+            Starting a new venture is exciting, and at Sathuluri & Associates, we specialize in helping startups thrive from day one. We specialize in providing comprehensive support services tailored specifically for entrepreneurs and startups, encompassing everything from inception, such as incorporation, to managing their accounts, payroll, and compliance needs, and beyond. At Sathuluri & Associates, we offer a one-stop solution for all these requirements. Partner with us to turn your startup vision into a successful reality.
+        </div>
+    </div>
+</div>

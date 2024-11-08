@@ -1,0 +1,38 @@
+.footer {
+    background-color: #f9f9f9;
+    width: 100vw;
+    display: flex;
+    padding: 2% 0 2% 0;
+}
+
+.col-1 {
+    position: relative;
+    left: 15%;
+    width: 60%;
+    font-size: 1.3em;
+}
+
+.col-2 {
+    width: 40%;
+    display: flex;
+}
+
+.footer-image img {
+    width: 65%;
+    height: 100%;
+}
+
+.quick-links, 
+.services {
+    width: 30%;
+    text-align: center;
+}
+
+.quick-links .header,
+.services .header {
+    color: #0059EF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,55 @@
+
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: Black;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+#company-header {
+    padding-top: 10px;
+    width: 50%;
+    position: relative;
+    left: 10%;
+}
+
+#navigation-elements {
+    width: 50%;
+}
+
+#navigation-elements ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+#navigation-elements ul li {
+    width: 15%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    visibility: inherit;
+}
+
+#navigation-elements ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black;
+    font-family: Arial;
+}
+
+.content {
+    position: absolute;
+    top: 71px;
+}
+

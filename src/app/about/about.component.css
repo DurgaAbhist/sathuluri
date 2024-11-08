@@ -1,0 +1,60 @@
+.about-container {
+    padding: 3% 0 0 0;
+}
+
+.header {
+    margin-bottom: 2%;
+}
+
+.header, .content {
+    padding: 0 15% 0 15%;
+}
+
+h2, h3, h4 {
+    margin: 0px;
+}
+
+.header {
+    font-size: 26px;
+}
+
+.content {
+    text-align: justify;
+    font-size: 18px;
+    color: #4b4b6b;
+}
+
+.content-cards {
+    background-color: #e7e7eb;
+    padding: 2% 15% 2% 15%;
+}
+
+.content-cards h2 {
+    color: black;
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.card-header {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.cards-row {
+    display: flex;
+}
+
+.cards {
+    border: 2px solid #0059ef;
+    width: 30%;
+    border-radius: 10px;
+    padding: 3%;
+    text-align: justify;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 1.5%;
+}
+
+
+
